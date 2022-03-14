@@ -3,7 +3,7 @@
 The application depends on two models SVM and Arabert
 You can download them:
 * [SVM (model.pkl)](https://www.kaggle.com/fadyelkbeer/ml-arabic-dialects/data)
-* [Medium-Arabert (arabert_arabic_dialect.pth)](https://www.kaggle.com/fadyelkbeer/ml-arabic-dialects/data)
+* [Medium-Arabert (arabert_arabic_dialect.pth)](https://www.kaggle.com/fadyadeeb/fine-tuning-arabert/data?scriptVersionId=90083716)
 
 ## Run
 
