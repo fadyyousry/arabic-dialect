@@ -22,7 +22,7 @@ def predict():
     try:
         json_ = request.json
         query = pd.DataFrame.from_dict(json_)
-        # prediction = clf.predict(query['text'])
+        prediction = clf.predict(query['text'])
         preds = predict_dialect(query, model, tokenizer)
         return jsonify({
             'ML prediction': list(prediction),
